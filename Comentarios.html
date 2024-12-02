@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade em dispositivos móveis -->
+    <title>Comentários</title> <!-- Título da página -->
+    <link rel="stylesheet" href="./style.css"> <!-- Link para o arquivo CSS -->
+</head>
+<body>
+    <header>
+        <!-- Logotipo do Batman -->
+        <img alt="Logotipo do Batman" id="logo" src="./Batman/media/imagens/batmanlogo.jpg" />
+        <nav>
+            <ul>
+                <!-- Links de navegação -->
+                <li><a href="./Home.html">Home</a></li>
+                <li><a href="./Contatos.html">Contatos</a></li>
+                <li><a href="./Fotos.html">Fotos</a></li>
+                <li><a href="./Comentarios.html">Comentários</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner da página -->
+    <div id="banner"></div>
+
+    <!-- Título da seção de comentários -->
+    <p id="contato">Comentários</p>
+    <h2>Deixe seu Comentário:</h2>
+
+    <!-- Formulário para envio de comentários -->
+    <form id="coment" action="#" method="post">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required placeholder="Digite seu nome"> <!-- Campo para nome -->
+        <br>
+
+        <label for="comentario">Comentário:</label><br>
+        <textarea id="comentario" name="comentario" rows="4" required placeholder="Digite seu comentário"></textarea> <!-- Campo para comentário -->
+        <br>
+
+        <input id="botcoment" type="submit" value="Enviar"> <!-- Botão de envio -->
+    </form>
+
+    <footer>
+        <!-- Logotipo do Batman no rodapé -->
+        <img alt="Logotipo do Batman" style="object-fit: contain;" id="logo-footer" src="./Batman/media/imagens/batmanlogo.jpg">
+        <span>Todos os direitos reservados ©</span>
+
+        <nav class="footer-navigation">
+            <ul class="footer-list">
+                <!-- Links de navegação no rodapé -->
+                <li><a href="./Home.html">Home</a></li>
+                <li><a href="./Contatos.html">Contatos</a></li>
+                <li><a href="./Fotos.html">Fotos</a></li>
+                <li><a href="./Comentarios.html">Comentários</a></li>
+            </ul>
+        </nav>        
+    </footer>
+</body>
+</html>

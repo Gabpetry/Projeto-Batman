@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./style.css"> <!-- Link para o arquivo de estilo CSS -->
+</head>
+<body>
+    <header>
+        <!-- Logotipo do Batman -->
+        <img alt="Logotipo do Batman" id="logo" src="./Batman/media/imagens/batmanlogo.jpg"/>
+        <nav>
+            <ul>
+                <!-- Links de navegação -->
+                <li><a href="./Home.html">Home</a></li>
+                <li><a href="./Contatos.html">Contatos</a></li>
+                <li><a href="./Fotos.html">Fotos</a></li>
+                <li><a href="./Comentarios.html">Comentários</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Banner da página -->
+    <div id="banner"></div>
+    
+    <!-- Container do trailer do filme -->
+    <div id="trailer-container">
+        <div class="content">
+            <video controls class="trailer">
+                <source src="./Batman/media/videos/Batman trailer.mp4" type="video/mp4">
+                <!-- Mensagem caso o navegador não suporte vídeos -->
+                Seu navegador não possui suporte para vídeos.
+            </video>
+            <div id="sinopse">
+                <p class="description">
+                    Após dois anos espreitando as ruas como Batman, Bruce Wayne se encontra nas profundezas mais sombrias de Gotham City. 
+                    Com poucos aliados confiáveis, o vigilante solitário se estabelece como a personificação da vingança para a população.
+                </p>
+                <!-- Botão para comprar ingresso -->
+                <button type="button" class="button">Comprar ingresso</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Container de cartões dos atores -->
+    <div class="actor-cards-container">
+        <div class="cards-content">
+            <!-- Cartões dos atores -->
+            <div class="card banner-1">Robert Pattinson - Batman</div>
+            <div class="card banner-2">Zoe Kravitz - Mulher Gato</div>
+            <div class="card banner-3">Jeffrey Wright - Gordon</div>
+        </div>
+    </div>
+    
+    <footer>
+        <!-- Logotipo do Batman no rodapé -->
+        <img alt="Logotipo do Batman" style="object-fit: contain;" id="logo-footer" src="./Batman/media/imagens/batmanlogo.jpg">
+        <span>Todos os direitos reservados ©</span>
+
+        <nav class="footer-navigation">
+            <ul class="footer-list">
+                <!-- Links de navegação no rodapé -->
+                <li><a href="./Home.html">Home</a></li>
+                <li><a href="./Contatos.html">Contatos</a></li>
+                <li><a href="./Fotos.html">Fotos</a></li>
+                <li><a href="./Comentarios.html">Comentários</a></li>
+            </ul>
+        </nav>        
+    </footer>
+</body>
+</html>
